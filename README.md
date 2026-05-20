@@ -1,5 +1,7 @@
 # WebAcademy
 Curso WebAcademy
 
-#18/05/2026 - Fundamentos de Programação Front-End
-Primeiros passos com html
+--- Fundamentos de Programação Front-End ---
+#18/05/2026 - Primeiros passos com HTML
+
+#19/05/2026 - Primeiros passos com CSS

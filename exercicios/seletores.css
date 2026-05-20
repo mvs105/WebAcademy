@@ -1,0 +1,10 @@
+/* Soleciona h1 e p*/
+h1,
+p{
+    color:blue;
+}
+
+/* Seleciona a dentro de p*/
+p a {
+    color: green;
+}
