@@ -1,0 +1,42 @@
+/* Soleciona h1 e p*/
+h1,
+p{
+    color:blue;
+}
+
+/* Seleciona a dentro de p*/
+p a {
+    color: green;
+}
+
+.codigo{
+    color: blue;
+}
+
+.design{
+    color:red;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+h1{
+    background: black;
+    color: white;
+}
+
+a{
+    background-color: seagreen;
+    color: white;
+}
+
+h1{
+    background: #8844ee;
+    color: #000000;
+}
+
+a{
+    background-color: #84e;
+    color: #fff;
+}
