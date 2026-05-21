@@ -1,0 +1,9 @@
+/* todos menos first-child e last-child */
+ol li:not(:first-child, :last-child){
+    background: #adf;
+}
+
+/* todos h2's dentro de selection, menos o que tiver a classe .contato */
+selection h2:not(.contato){
+    text-decoration: underline;
+}
