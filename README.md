@@ -10,4 +10,4 @@ Curso WebAcademy
 
 #### 22/05/2026 - Primeiros passos com JavaScript
 
-## Back-End
+## Fundamentos de Programação Back-End
