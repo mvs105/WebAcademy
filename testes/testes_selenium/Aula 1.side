@@ -1,0 +1,128 @@
+{
+  "id": "33762c8e-5c70-4184-8b29-e34ff599bccf",
+  "version": "2.0",
+  "name": "Aula 1",
+  "url": "http://uitestingplayground.com/clientdelay",
+  "tests": [{
+    "id": "5de198d3-2fe2-4248-b6ae-9d4e4560648e",
+    "name": "text input",
+    "commands": [{
+      "id": "6ec54834-80a0-4ff3-a2af-8653c02aedc2",
+      "comment": "",
+      "command": "open",
+      "target": "http://uitestingplayground.com/textinput",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7c19c92-8a63-49ed-87c7-fccc1994fdb8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d78dfc3-48d0-4e34-b148-3295934bd93e",
+      "comment": "",
+      "command": "click",
+      "target": "id=newButtonName",
+      "targets": [
+        ["id=newButtonName", "id"],
+        ["css=#newButtonName", "css:finder"],
+        ["xpath=//input[@id='newButtonName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73d2321c-7179-4a0f-a2c8-4c00389ec820",
+      "comment": "",
+      "command": "type",
+      "target": "id=newButtonName",
+      "targets": [
+        ["id=newButtonName", "id"],
+        ["css=#newButtonName", "css:finder"],
+        ["xpath=//input[@id='newButtonName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Marcos"
+    }, {
+      "id": "20c28e30-2b2d-4645-be06-adec236336f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=updatingButton",
+      "targets": [
+        ["id=updatingButton", "id"],
+        ["css=#updatingButton", "css:finder"],
+        ["xpath=//button[@id='updatingButton']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aac2092-ab94-4434-8e3a-5bfb4db6bf7e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=updatingButton",
+      "targets": [],
+      "value": "Marcos"
+    }]
+  }, {
+    "id": "f2e5fd8a-03c8-4e01-80cb-3a3d0b3abee8",
+    "name": "client delay",
+    "commands": [{
+      "id": "c0068d03-4d88-4afd-95e0-0cb2759aae3c",
+      "comment": "",
+      "command": "open",
+      "target": "http://uitestingplayground.com/clientdelay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78feaa2c-40ba-4d9d-8a74-afae29b0cc76",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd6828f3-3988-47e1-b108-0019e52045e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=ajaxButton",
+      "targets": [
+        ["id=ajaxButton", "id"],
+        ["css=#ajaxButton", "css:finder"],
+        ["xpath=//button[@id='ajaxButton']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Button Triggering Client Side Logic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14bec5a6-56fb-481f-9ae8-0403bdb4dba8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=p.bg-success",
+      "targets": [],
+      "value": "16000"
+    }, {
+      "id": "d8391fad-b853-48b6-87f3-1c1a9a1b35a3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p.bg-success",
+      "targets": [
+        ["css=.bg-success", "css:finder"],
+        ["xpath=//div[@id='content']/p", "xpath:idRelative"],
+        ["xpath=//div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Data calculated on the client side.')]", "xpath:innerText"]
+      ],
+      "value": "Data calculated on the client side."
+    }]
+  }],
+  "suites": [{
+    "id": "b9816356-3e0e-4e07-88c6-0d7cc48a84fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://uitestingplayground.com/textinput", "https://www.google.com/?hl=pt_BR", "http://uitestingplayground.com/clientdelay"],
+  "plugins": []
+}
