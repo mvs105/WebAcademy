@@ -39,3 +39,25 @@ coverage/
 *.class
 *.log
 *.tsbuildinfo
+
+# Arquivos auxiliares do LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# Copias locais ja representadas por arquivos-fonte
+/fundamentos-de-programação-back-end/Java/bin/
+/oficina-banco-de-dados/exercicio-modulo-02.zip
+/oficina-banco-de-dados/exercicio-modulo-04.zip
+/oficina-banco-de-dados/exercicio-modulo-05.zip
+/oficina-banco-de-dados/mat_6a40273d79879 (1).zip
+
+# Material grande mantido apenas localmente
+/oficina-banco-de-dados/mat_69fd41e8b8e71.pdf
