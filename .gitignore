@@ -1,0 +1,41 @@
+# Sistema operacional e arquivos temporarios
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+*~
+
+# Editores e IDEs
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Configuracoes locais e segredos
+.env
+.env.*
+!.env.example
+
+# Dependencias e caches
+node_modules/
+vendor/
+.gradle/
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Saidas de compilacao, testes e logs
+target/
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+*.class
+*.log
+*.tsbuildinfo
