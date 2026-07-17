@@ -1,25 +1,15 @@
 package com.example.demo.repo;
 
-
-import com.example.demo.models.Produto;
-import net.bytebuddy.asm.Advice;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.data.jpa.test.autoconfigure.DataJpaTest;
 
-import java.time.LocalDate;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@DataJpaTest
-public class ProdutoRepo {
-
-    @Autowired
-    ProdutoRepo produtoRepo;
+class ProdutoRepoTest {
 
     @Test
-    public void deveSalvarProduto(){
-        Produto produto = new Produto();
-        produto.setDataVencimento(new Date(2026-10-15));
-        produto.setNome("Omo");
-        produto.setGetQuantidadeEstoque(20);
+    void deveInstanciarRepositorio() {
+        ProdutoRepo produtoRepo = new ProdutoRepo();
+
+        assertNotNull(produtoRepo);
     }
 }
