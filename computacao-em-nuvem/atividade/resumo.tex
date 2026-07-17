@@ -1,0 +1,49 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+% \usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+\renewcommand{\arraystretch}{1.25}
+
+\noindent
+\begin{tabular}{|p{\dimexpr\linewidth-2\tabcolsep-1.2pt}|}
+    \hline
+    \large WebAcademy\\
+    \hline
+    \large \textbf{Disciplina: }Computação em Nuvem - Resumo\\
+    \hline
+    \large \textbf{Nome: }Marcos Vinicius Souza da Costa\\
+    \hline
+\end{tabular}
+ 
+\section{Virtualização: conceitos e exemplos. Clusters e data centers. }
+A virtualização é um processo que permite utilizar os recursos de uma máquina física, como um servidor ou computador pessoal, de forma mais otimizada através abstração e particionamento dos recursos de hardware em máquinas virtuais (VMs - Virtual Machine). Esse processo é gerenciado por um componente denominado \textit{hipervisor}, que garante que cada máquina receba os recursos alocados sem interfirir no funcionamento de outras VMs. Cada ambiente virtual pode executar um sistema operacional próprio como se fossem máquinas separadas.
+
+A Amazon Web Services (AWS), por exemplo, utiliza-se de infraestruturas virtualizadas para fornecer serviços a startups, grandes corporações e até órgãos governamentais, que desejam se utilizar dos benefícios da computação na nuvem de forma barata e escalável.
+
+\section{Infraestrutura Escalável: A relação e as diferenças entre Clusters e Data Centers.}
+Um Data Center é um local em que ficam guardados diversos equipamentos de TI, incluindo servidores. Os Clusters são agrupamentos de servidores conectados que trabalham juntos como se fossem um só.
+
+Essa organização permite criar uma infraestrutura confiável e escalável, permitindo que os usuários aumentem ou diminuam a quantidade de recursos e usuários de acordo com suas necessidades
+
+\section{Virtualização de Redes: O impacto e a arquitetura das abordagens SDN (Redes Definidas por Software).}
+
+A virtualização de rede é um processo que combina todos os recursos físicos de rede para centralizar tarefas administrativas. Os administradores podem ajustar e controlar esses elementos virtualmente sem tocar nos seus componentes, o que simplifica muito o gerenciamento da rede.
+
+Uma Rede definida por software(SDN – Software-Defined Networking) centraliza o roteamento de tráfego assumindo o gerenciamento de roteamento do roteamento de dados no ambiente físico. Por exemplo, você pode programar seu sistema para priorizar o tráfego de chamadas de vídeo sobre o tráfego de aplicações para garantir uma qualidade de chamada consistente em todas as reuniões online.
+
+% Virtualização de funções de rede
+% A tecnologia de virtualização de funções de rede combina as funções de dispositivos de rede, como firewalls, balanceadores de carga e analisadores de tráfego, que trabalham juntos para melhorar a performance da rede.
+
+\section{Otimização e Desempenho: Tecnologias avançadas de aceleração de rede, como SR-IOV.} 
+
+Em tipos de máquina virtual (VM) suportados, a Rede Acelerada permite Single Root I/O Virtualization (SR-IOV), ou virtualização de entrada e saída (E/S) de raiz única. Técnica que melhora significativamente o desempenho da rede. A rede acelerada permite que o tráfego de rede ignore a camada de comutador de software das pilhas de virtualização do Hyper-V, assim o tráfego de rede flui diretamente entre a VF e o hardware, fazendo com que a sobrecarga de E/S na camada de emulação de software diminua até que o desempenho da rede se torne quase o mesmo que os ambientes físicos locais.
+
+\end{document}
