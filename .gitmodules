@@ -1,0 +1,45 @@
+[submodule "frameworks-back-end/atividades/fwrkb-orm-mvs105"]
+	path = frameworks-back-end/atividades/fwrkb-orm-mvs105
+	url = https://github.com/webacademyufac/fwrkb-orm-mvs105.git
+[submodule "frameworks-back-end/atividades/fwrkb-t9-criar-projeto-mvs105"]
+	path = frameworks-back-end/atividades/fwrkb-t9-criar-projeto-mvs105
+	url = https://github.com/webacademyufac/fwrkb-t9-criar-projeto-mvs105.git
+[submodule "frameworks-back-end/frameworks-back-end-t9"]
+	path = frameworks-back-end/frameworks-back-end-t9
+	url = https://github.com/webacademyufac/frameworks-back-end-t9.git
+[submodule "frameworks-back-end/fwrkb-crud-arthur-dalila-ediciana-marcos-mirelle"]
+	path = frameworks-back-end/fwrkb-crud-arthur-dalila-ediciana-marcos-mirelle
+	url = https://github.com/webacademyufac/fwrkb-crud-arthur-dalila-ediciana-marcos-mirelle.git
+[submodule "frameworks-back-end/sgcmdocs"]
+	path = frameworks-back-end/sgcmdocs
+	url = https://github.com/webacademyufac/sgcmdocs.git
+[submodule "frameworks-front-end/frameworks-front-end-t9"]
+	path = frameworks-front-end/frameworks-front-end-t9
+	url = https://github.com/webacademyufac/frameworks-front-end-t9.git
+[submodule "frameworks-front-end/fwrkf-revisao-mvs105"]
+	path = frameworks-front-end/fwrkf-revisao-mvs105
+	url = https://github.com/webacademyufac/fwrkf-revisao-mvs105.git
+[submodule "frameworks-front-end/fwrkf-t9-crud-arthur-dalila-ediciana-marcos-mirelle"]
+	path = frameworks-front-end/fwrkf-t9-crud-arthur-dalila-ediciana-marcos-mirelle
+	url = https://github.com/webacademyufac/fwrkf-t9-crud-arthur-dalila-ediciana-marcos-mirelle.git
+[submodule "fundamentos-de-programacao-front-end/portalufac/ProjetoFrontEnd"]
+	path = fundamentos-de-programação-front-end/portalufac/ProjetoFrontEnd
+	url = https://github.com/MiMiCampos/ProjetoFrontEnd.git
+[submodule "fundamentos-de-programacao-front-end/ProjetoFrontEnd"]
+	path = fundamentos-de-programação-front-end/ProjetoFrontEnd
+	url = https://github.com/MiMiCampos/ProjetoFrontEnd.git
+[submodule "integracao-continua/Atividade01_CI_t9"]
+	path = integracao-continua/Atividade01_CI_t9
+	url = https://github.com/silvana21/Atividade01_CI_t9.git
+[submodule "integracao-continua/calculadora-ci"]
+	path = integracao-continua/calculadora-ci
+	url = https://github.com/mvs105/calculadora-ci.git
+[submodule "integracao-continua/webacademy-marcosViniciusCosta"]
+	path = integracao-continua/webacademy-marcosViniciusCosta
+	url = https://github.com/mvs105/webacademy-marcosViniciusCosta.git
+[submodule "topicos-fundamentais/atividade_git_hub/projeto_vendas"]
+	path = topicos-fundamentais/atividade_git_hub/projeto_vendas
+	url = https://github.com/mvs105/projeto_vendas.git
+[submodule "topicos-fundamentais/atividade_git_hub/repo-receita"]
+	path = topicos-fundamentais/atividade_git_hub/repo-receita
+	url = https://github.com/mvs105/repo-receita.git
