@@ -43,3 +43,6 @@
 [submodule "topicos-fundamentais/atividade_git_hub/repo-receita"]
 	path = topicos-fundamentais/atividade_git_hub/repo-receita
 	url = https://github.com/mvs105/repo-receita.git
+[submodule "programacao-avancada-back-end/programacao-avancada-back-end-t9"]
+	path = programacao-avancada-back-end/programacao-avancada-back-end-t9
+	url = https://github.com/webacademyufac/programacao-avancada-back-end-t9.git
