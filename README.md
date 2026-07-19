@@ -13,6 +13,7 @@ Acervo de disciplinas, oficinas, exercícios, materiais de apoio e projetos dese
 | [`fundamentos-de-programação-front-end/`](fundamentos-de-programação-front-end/) | Exercícios de HTML, CSS e JavaScript e projetos da disciplina |
 | [`integracao-continua/`](integracao-continua/) | Atividades e projetos de integração contínua |
 | [`oficina-banco-de-dados/`](oficina-banco-de-dados/) | Scripts SQL, diagramas, exercícios e materiais da oficina |
+| [`programacao-avancada-back-end/`](programacao-avancada-back-end/) | Aulas, documentação e projeto de Programação Avançada Back-End |
 | [`testes/`](testes/) | Exercícios, projetos e materiais sobre testes automatizados |
 | [`topicos-fundamentais/`](topicos-fundamentais/) | Materiais e atividades de tópicos fundamentais |
 | [`ux-e-design-thinking/`](ux-e-design-thinking/) | Área reservada para UX e Design Thinking |
